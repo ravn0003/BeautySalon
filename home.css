@@ -1,0 +1,170 @@
+img 
+{
+  width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century gothic;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(beauty1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    white-space: normal;
+    z-index: 1;
+    
+    
+}
+
+ul
+{
+    float:left;
+    list-style-type: none;
+    margin-top: 80px;
+    white-space: normal;
+    z-index: 1;
+    
+}
+
+ul li
+{
+    display: inline-block;
+    z-index: 1;
+    
+}
+ul li a
+{
+    text-decoration: none;
+    color: black ;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 10px 40px;
+    border: transparent;
+    transition: 0.6s ease;
+    z-index: 1;
+
+}
+ul li a:hover
+{
+    background-color: pink;
+    color: black;
+    
+}
+
+ul li.active a 
+{background-color: pink;
+    color: black;
+    
+}
+
+.logo img
+{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    
+}
+
+.main
+{
+    max-width: 1200px;
+}
+
+.title
+{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-40%,-25%);
+    font-style: oblique;
+    
+}
+
+.title h1
+{
+    color: rgb(206, 124, 77);
+    font-size: 70px;
+    position: relative;
+    left: 2%;
+    
+    
+     
+}
+.title h2
+{
+    color: pink;
+    font-size: 40px;
+    position:absolute;
+    left: 10%;
+    
+}
+.title h3
+{
+    color: rgb(170, 59, 170);
+    font-size: x-large;
+    font-style: italic;
+    position: absolute;
+    left: 5%;
+    text-align: center;
+}
+
+.button
+{
+    position:absolute;
+    top: 88%;
+    left: 75%;
+    transform: translate(-90%,-25%);
+    font-style: oblique;
+}
+.btn
+{
+    border: 1px solid black;
+    padding: 10px 50px;
+    color: black;
+    background-color: rgb(170, 59, 170);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.6s ease;
+    
+    
+}
+.btn:hover
+{
+    background-color: rgb(65, 58, 58);
+    color: white;
+
+
+}
+#mailto
+{
+    color:pink;
+    font-size: 20px;
+    font-style: normal;
+    position: absolute;
+}
+
+nav,nav a
+    {
+        background-color: rgb(206, 124, 77);
+        color: bl;
+        text-align: center;
+        padding: 10px;
+        font-size: xx-large;
+        
+    }
+
+footer address
+    {
+        font-size: x-large;
+        text-align: right;
+        font-weight: bold;
+        background-color: rgb(155, 155, 142);
+    }
+ 
+

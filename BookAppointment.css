@@ -1,0 +1,143 @@
+
+img 
+{
+  height: 100%;
+  margin: 0%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century gothic;
+}
+
+ul
+{
+    float:left;
+    list-style-type: none;
+    margin-top: 80px;
+}
+
+ul li
+{
+    display: inline-block;
+}
+ul li a
+{
+    text-decoration: none;
+    color: black ;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 10px 40px;
+    border: transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover
+{
+    background-color: pink;
+    color: black;
+}
+
+ul li.active a 
+{background-color: pink;
+    color: black;}
+
+.logo img
+{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(appointpic.jpg);
+    height: 100v;
+    background-size: cover;
+    background-position: center;
+}
+
+   body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      
+      
+      form {
+        width: 500px;
+        margin: 0 auto;
+        padding: 5px 20px;
+        background-color: rgb(242, 230, 242);
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        height: 10%;
+      }
+      
+      label {
+        display: block;
+        margin-top: 5px;
+      }
+      
+      input, select, textarea {
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      
+      textarea {
+        height: 100px;
+      }
+      
+      select {
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      
+      select option:first-child {
+        display: none;
+      }
+
+      nav,nav a
+    {
+        background-color: rgb(206, 124, 77);
+        color: bl;
+        text-align: center;
+        padding: 10px;
+        font-size: xx-large;
+    }
+
+
+		  footer address
+    {
+        font-size: x-large;
+        text-align: right;
+        font-weight: bold;
+        background-color: rgb(155, 155, 142);
+    }
+
+
